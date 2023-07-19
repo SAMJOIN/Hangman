@@ -1,0 +1,45 @@
+.word {
+    text-align: center;
+}
+
+.symb {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+.pic {
+    width: 500px;
+}
+
+.letter {
+    height: 50px;
+    margin: 0;
+}
+
+.viselica {
+    align-items: center;
+    text-align: center;
+}
+
+.key {
+    width: 40px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.keyboard {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0;
+    display: inline-block;
+}
+
+.keyboardBox {
+}
+
+
+

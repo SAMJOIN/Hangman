@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+    
+}
+
+.gameArea {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100px auto;
+    grid-template-areas: 
+    "btn label"
+    "game game";
+}
+
+.menuBtn {
+    grid-area: btn;
+    align-items: end;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.themeLabel {
+    grid-area: label;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 550px;
+    width: max-content;
+}
+
+.game{
+    grid-area: game;
+}
