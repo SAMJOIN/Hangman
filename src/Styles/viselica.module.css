@@ -16,11 +16,14 @@
 .letter {
     height: 50px;
     margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .viselica {
     align-items: center;
     text-align: center;
+    
 }
 
 .key {
@@ -28,6 +31,12 @@
     height: 50px;
     font-size: 20px;
     margin: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.key:hover {
+    transform: scale(0.99);
 }
 
 .keyboard {
@@ -39,6 +48,11 @@
 }
 
 .keyboardBox {
+    margin-top: 20px;
+}
+
+.picContainer{
+    height: 500px;
 }
 
 
