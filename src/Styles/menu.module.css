@@ -1,13 +1,36 @@
 .categoryBtn {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
     width: 200px;
     height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.categoryBtn:hover {
+    transform: scale(0.99);
 }
 
 .selector {
     display: grid;
     justify-content: center;
+}
+
+.menu {
+    background: url('/src/bg.jpg') repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.countLabel {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.themeLabel {
+    padding-top: 20px;
 }
