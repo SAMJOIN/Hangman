@@ -24,6 +24,12 @@ function stateReducer(state, action) {
                         return state.game.words.nature;
                     case 'Техника':
                         return state.game.words.tech;
+                    case 'Химия':
+                        return state.game.words.cgimestry;
+                    case 'Страны':
+                        return state.game.words.country;
+                    case 'Оружие':
+                        return state.game.words.weapon;
                     default:
                         return [];
                 }
@@ -95,6 +101,24 @@ export const selectCategoryTechActionCreator = () => {
     return {
         type: SELECT_CATEGORY,
         newCategory: 'Техника'
+    }
+}
+export const selectCategoryChimestryActionCreator = () => {
+    return {
+        type: SELECT_CATEGORY,
+        newCategory: 'Химия'
+    }
+}
+export const selectCategoryCountryActionCreator = () => {
+    return {
+        type: SELECT_CATEGORY,
+        newCategory: 'Страны'
+    }
+}
+export const selectCategoryWeaponActionCreator = () => {
+    return {
+        type: SELECT_CATEGORY,
+        newCategory: 'Оружие'
     }
 }
 export const backMenuActionCreator = () => {
